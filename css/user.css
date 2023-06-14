@@ -1,0 +1,131 @@
+/* CSS Document */
+
+#header .header_picture{
+  position: absolute;
+  top: -1vw;
+  left: 0vw;	
+}
+#header .header_picture img{
+	width: 31vw;
+}
+.site-title{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #fff8c8;
+	font-size:7.9vw
+}
+.forCross2{
+  position: absolute;
+  right: 2vw;
+  top: 0vw;
+
+}
+.forCross2 img{
+  height: 25vw;
+  width: 48vw;
+  position: relative;
+  right: -2vw;	
+}
+.title2{color:gold;}
+.title3{color:gold;}
+
+.daily_verse{font-weight:bold;}
+
+.social_header{
+  width: 27%;
+  display: block;
+  position: relative;
+  top: 4vw;	
+}
+
+.soc_head_youtube img{width:70px}
+.soc_head_facebook img{width:70px}
+.soc_head_twitter img{width:70px}
+.soc_head_email img{width:70px}
+ 
+ 
+ /* for lessons page --------------------------------------------------*/
+.lesson_page{width:95% !important}
+
+.lessons_sidebar{
+	width:37%;
+  height: 45vw;
+  overflow-y: scroll;
+  overflow-x: hidden;	
+	
+}
+.lessons_header h1{font-size: 2.4vw;}
+
+.lessons_main{width:63%;}
+.lessons_main section{
+  width: 90%;
+  display: block;
+  margin: 2vw auto 0 auto;
+}
+.lessons_main section h2{
+  font-size: 2vw;
+  margin-bottom:1vw;
+}
+.lessons_main .coms{
+  width: 90%;
+  display: block;
+  margin: 2vw auto 0 auto;
+}
+.lessons_main .coms textarea{
+  width: 84%;
+  height: 10vw;	
+}
+
+.lesson_li_div h3{
+  display: inline-block;
+  width: 69%;
+  margin: 0 0 0 0.5vw;
+}
+.lesson_li_div h3 a{
+	font-size:1.4vw;
+	color:#039f03;
+}
+.lesson_li_div p{
+	font-size: 1.3em;
+	width: 90%;	
+}
+.lesson_li_div p::first-letter{
+   margin-left: 10px;
+   font-weight:bold;
+   color:black;
+}
+.soc_lec_youtube{ 
+display:inline-block;
+margin: 0 0 0 0.3vw;
+}
+.soc_lec_youtube img{width:4vw}
+.soc_lec_facebook img{width:20px}
+.soc_lec_twitter img{width:20px}
+.soc_lec_email img{width:20px}
+
+.soc_lessons{
+  width: 21%;
+  position: relative;
+  display: block;
+  left: 26vw;
+}
+.lesson_hr_li{
+	border:0 0 0 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;	
+}
+.youtube_lesson{
+   width: 51%;
+  margin: auto;
+}
+.lessons_links a{
+   display:block;
+}
+.lessons_links img{
+  width: 33vw;
+  margin: auto;
+  display: block;
+}
+
+/*         LECTURAS PAGE ---------------------------------- */
+
+.lecturas_pagina h1{font-size:3vw;}
